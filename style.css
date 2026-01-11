@@ -1,15 +1,17 @@
 .navUl{
-    background-color: #070144;
-    color: #fffefe;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
 }
 .navlist a{
-    color: #ffffff;
+    color: #000000;
 }
 body{
     background-color: #0c0149;
 }
 .header-row{
     background-color: #5661ff;
+    border-radius: 50px;
 }
 .globe-img{
     background-color: #000000;
@@ -20,8 +22,10 @@ body{
     cursor: pointer;
 
 }  */
-  
 
+.leftcol{
+    padding-top: 100px;
+}
 
 .globe-img {
   animation: rotate 15s linear infinite;
