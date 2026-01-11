@@ -15,3 +15,29 @@ body{
     background-color: #000000;
     border-radius: 300px;
 }
+/* 
+.globe-img{
+    cursor: pointer;
+
+}  */
+  
+
+
+.globe-img {
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.globe-img:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px rgb(11, 57, 3);
+    cursor: pointer;
+    animation-name: __pulse;
+    animation-duration: 2s;
+}
+
+
