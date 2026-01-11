@@ -6,5 +6,12 @@
     color: #ffffff;
 }
 body{
-    background-color: #ffffff;
+    background-color: #0c0149;
+}
+.header-row{
+    background-color: #5661ff;
+}
+.globe-img{
+    background-color: #000000;
+    border-radius: 300px;
 }
