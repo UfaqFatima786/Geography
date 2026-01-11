@@ -1,39 +1,65 @@
-.navUl{
+.navUl {
     background-color: #ffffff;
     color: #000000;
     border-radius: 10px;
 }
-.navlist a{
+
+.navlist a {
     color: #000000;
 }
-body{
+
+body {
     background-color: #0c0149;
 }
-.header-row{
+
+.header-row {
     background-color: #5661ff;
     border-radius: 50px;
 }
-.globe-img{
+
+.globe-img {
     background-color: #000000;
     border-radius: 300px;
 }
+
 /* 
 .globe-img{
     cursor: pointer;
 
 }  */
 
-.leftcol{
+.leftcol {
     padding-top: 100px;
+    background-color: #a8a7ff;
+    border-radius: 50px;
+    border: 2px solid rgb(1, 1, 68);
 }
 
+.leftcol:hover {
+    cursor: pointer;
+    animation-name: __pulse;
+    animation-duration: 2s;
+}
+
+.section-hero:hover {
+    cursor: pointer;
+    animation-name: __pulse;
+    animation-duration: 2s;
+}
+
+
 .globe-img {
-  animation: rotate 15s linear infinite;
+    animation: rotate 15s linear infinite;
 }
 
 @keyframes rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .globe-img:hover {
@@ -44,4 +70,31 @@ body{
     animation-duration: 2s;
 }
 
+.heading-3 {
+    color: rgb(0, 0, 0);
+    /* font-weight: 600; */
+    font-size: 50px;
+    font-style: italic;
+}
 
+.heading-3:hover {
+    color: rgb(255, 255, 255);
+    /* font-weight: 650; */
+    transition: 0.9s;
+    cursor: pointer;
+    animation-name: __slideLeft;
+    animation: slideLeft 0.5s ease forwards;
+}
+
+.para-1 {
+    font-style: italic;
+    font-size: 20px;
+    color: #000;
+}
+
+.para-1:hover {
+    font-size: 20px;
+    color: #000;
+    animation-name: __slideLeft;
+    animation: slideLeft 0.5s ease forwards;
+}
