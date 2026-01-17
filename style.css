@@ -100,18 +100,15 @@ body {
 }
 
 .world-row {
-    background-image: url('https://freevector-images.s3.amazonaws.com/uploads/vector/preview/160625/vecteezyWorldMapCountryName1FV0223_generated.jpg');
+    /* background-image: url('https://freevector-images.s3.amazonaws.com/uploads/vector/preview/160625/vecteezyWorldMapCountryName1FV0223_generated.jpg');
     border-radius: 50px;
     height: 1000px;
-    background-size: cover;
-    background-position: center;
+    width: 100%; */
 }
-.world-row {
-    background-size: cover;
-    background-position: center;
+.world-img {
+    border-radius: 50px;
+    width: 1200px;
+    height: auto;
+    border-radius: 100px;
+    border: 5px solid #ffffff;
 }
-/* .world-img {
-    width: 1000px;
-    border-radius: 150px;
-    margin-right: 500px;
-} */
