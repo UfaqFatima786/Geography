@@ -100,11 +100,18 @@ body {
 }
 
 .world-row {
-    background-color: #5661ff;
+    background-image: url('https://freevector-images.s3.amazonaws.com/uploads/vector/preview/160625/vecteezyWorldMapCountryName1FV0223_generated.jpg');
     border-radius: 50px;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
 }
-.world-img {
+.world-row {
+    background-size: cover;
+    background-position: center;
+}
+/* .world-img {
     width: 1000px;
     border-radius: 150px;
     margin-right: 500px;
-}
+} */
