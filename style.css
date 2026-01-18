@@ -86,18 +86,24 @@ body {
     animation: slideLeft 0.5s ease forwards;
 }
 
+
 .para-1 {
     font-style: italic;
-    font-size: 20px;
+    font-size: 25px;
+    color: #000;
+}
+.para1 {
+    font-style: italic;
+    font-size: 27px;
     color: #000;
 }
 
-.para-1:hover {
+/* .para-1:hover {
     font-size: 20px;
     color: #000;
     animation-name: __slideLeft;
     animation: slideLeft 0.5s ease forwards;
-}
+} */
 
 .world-row {
     background-image: url('images/blue-world-map-white-background_42634-9.avif');
@@ -120,7 +126,7 @@ body {
   
 .heading3 {
     color: #12015f;
-    font-size: 50px;
+font-size: 50px;
     font-style: italic;
 }
 
@@ -131,10 +137,9 @@ body {
 }
 .para-1 {
     font-style: italic;
-    font-size: 20px;
+    font-size: 25px;
     color: #000;
-        font-weight: bold;
-
+font-weight: 500;
 }
 .overlay {
     position: relative;
