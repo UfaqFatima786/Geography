@@ -78,7 +78,7 @@ body {
 }
 
 .heading-3:hover {
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     /* font-weight: 650; */
     transition: 0.9s;
     cursor: pointer;
@@ -104,25 +104,44 @@ body {
     border-radius: 50px;
     height: 500px;
     width: 100%;
- }
- /* .overlay {
+}
+
+/* .overlay {
     background-color: rgba(108, 111, 138, 0.6);
     height: 100%;
     width: 100%;
     border-radius: 50px;
     padding: 50px;
  } */
-  .heading3{
-    color: #000;
+  .span-1 {
+    color: #2604bd;
+    font-weight: bold;
+  }
+  
+.heading3 {
+    color: #12015f;
     font-size: 50px;
     font-style: italic;
-  }
-  .overlay{
+}
+
+.heading3:hover {
+    color: #2232c2;
+    font-size: 50px;
+    font-style: italic;
+}
+.para-1 {
+    font-style: italic;
+    font-size: 20px;
+    color: #000;
+        font-weight: bold;
+
+}
+.overlay {
     position: relative;
     background-color: rgba(64, 64, 143, 0.473);
     border-radius: 12px;
     /* margin-top: 390px !important; */
-    margin-top:10px !important;
+    margin-top: 10px !important;
     margin-left: 160px !important;
     width: 75% !important;
     border-radius: 20px;
@@ -134,7 +153,7 @@ body {
     border: 2px solid rgb(0, 0, 0);
     color: #000;
     cursor: pointer;
-    background-color:rgba(156, 156, 253, 0.493);
+    background-color: rgba(156, 156, 253, 0.493);
     animation-name: zoom-In;
     animation-duration: 2s;
 }
