@@ -112,27 +112,29 @@ body {
     border-radius: 50px;
     padding: 50px;
  } */
-  .heading-3{
-
+  .heading3{
+    color: #000;
+    font-size: 50px;
+    font-style: italic;
   }
   .overlay{
-
     position: relative;
     background-color: rgba(64, 64, 143, 0.473);
     border-radius: 12px;
     /* margin-top: 390px !important; */
-    margin-top:50px !important;
+    margin-top:10px !important;
     margin-left: 160px !important;
     width: 75% !important;
     border-radius: 20px;
     border: 2px solid rgb(0, 0, 0);
-    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+    box-shadow: 5px 5px 15px rgb(20, 3, 252);
 }
 
 .overlay:hover {
     border: 2px solid rgb(0, 0, 0);
     color: #000;
-    background-color:rgba(72, 72, 129, 0.493);
+    cursor: pointer;
+    background-color:rgba(156, 156, 253, 0.493);
     animation-name: zoom-In;
     animation-duration: 2s;
 }
