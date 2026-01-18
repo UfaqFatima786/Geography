@@ -100,15 +100,39 @@ body {
 }
 
 .world-row {
-    /* background-image: url('https://freevector-images.s3.amazonaws.com/uploads/vector/preview/160625/vecteezyWorldMapCountryName1FV0223_generated.jpg');
+    background-image: url('images/blue-world-map-white-background_42634-9.avif');
     border-radius: 50px;
-    height: 1000px;
-    width: 100%; */
+    height: 500px;
+    width: 100%;
+ }
+ /* .overlay {
+    background-color: rgba(108, 111, 138, 0.6);
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    padding: 50px;
+ } */
+  .heading-3{
+
+  }
+  .overlay{
+
+    position: relative;
+    background-color: rgba(64, 64, 143, 0.473);
+    border-radius: 12px;
+    /* margin-top: 390px !important; */
+    margin-top:50px !important;
+    margin-left: 160px !important;
+    width: 75% !important;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
 }
-.world-img {
-    border-radius: 50px;
-    width: 1200px;
-    height: auto;
-    border-radius: 100px;
-    border: 5px solid #ffffff;
+
+.overlay:hover {
+    border: 2px solid rgb(0, 0, 0);
+    color: #000;
+    background-color:rgba(72, 72, 129, 0.493);
+    animation-name: zoom-In;
+    animation-duration: 2s;
 }
