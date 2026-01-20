@@ -7,9 +7,11 @@
 .navlist a {
     color: #000000;
 }
+
 .navlist a:hover {
     color: #3700ff;
 }
+
 .logo-1 {
     width: 50px;
     height: 70px;
@@ -100,6 +102,7 @@ body {
     font-size: 25px;
     color: #000;
 }
+
 .para1 {
     font-style: italic;
     font-size: 27px;
@@ -120,14 +123,14 @@ body {
     width: 100%;
 }
 
-  .span-1 {
+.span-1 {
     color: #2604bd;
     font-weight: bold;
-  }
-  
+}
+
 .heading3 {
     color: #12015f;
-font-size: 50px;
+    font-size: 50px;
     font-style: italic;
 }
 
@@ -136,12 +139,14 @@ font-size: 50px;
     font-size: 50px;
     font-style: italic;
 }
+
 .para-1 {
     font-style: italic;
     font-size: 25px;
     color: #000;
-font-weight: 500;
+    font-weight: 500;
 }
+
 .overlay {
     position: relative;
     background-color: rgba(64, 64, 143, 0.473);
@@ -163,7 +168,8 @@ font-weight: 500;
     animation-name: zoom-In;
     animation-duration: 2s;
 }
-.land{
+
+.land {
     width: 500px;
     height: 300px;
     border-radius: 10px;
@@ -171,6 +177,7 @@ font-weight: 500;
     gap: 20px;
     box-shadow: 5px 5px 15px rgb(152, 145, 248);
 }
+
 .land {
     width: 500px;
     height: 300px;
@@ -186,11 +193,13 @@ font-weight: 500;
         opacity: 0;
         transform: scale(0.9) translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: scale(1) translateY(0);
     }
 }
+
 .land {
     width: 500px;
     height: 300px;
@@ -203,16 +212,17 @@ font-weight: 500;
 }
 
 .land:hover {
-animation-name: zoomIn;
-animation-duration: 0.5s;  
- box-shadow: 8px 15px 30px rgb(120, 110, 240);
+    animation-name: zoomIn;
+    animation-duration: 0.5s;
+    box-shadow: 8px 15px 30px rgb(120, 110, 240);
     cursor: pointer;
 }
 
-.landscape-grid{
+.landscape-grid {
     gap: 100px;
-    
+
 }
+
 .para-2 {
     font-style: italic;
     font-size: 25px;
@@ -220,12 +230,13 @@ animation-duration: 0.5s;
     font-weight: 500;
 
 }
+
 .head2 {
     color: #ffffff;
     font-size: 50px;
     font-style: italic;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px #0206fa;   
+    text-shadow: 2px 2px 4px #0206fa;
 
 }
 
@@ -242,13 +253,14 @@ animation-duration: 0.5s;
     from {
         transform: translateX(0);
     }
+
     to {
         transform: translateX(-20px);
     }
 }
-.climate-section{
-    width: 500px;
-    height: 300px;
+
+.climate-section {
+
     border-radius: 10px;
     margin: 10px;
     box-shadow: 5px 5px 15px rgb(152, 145, 248);
