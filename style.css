@@ -1,5 +1,5 @@
 .navUl {
-    background-color: #ffffff;
+    background-color: #d7d4fc;
     color: #000000;
     border-radius: 10px;
 }
@@ -7,13 +7,21 @@
 .navlist a {
     color: #000000;
 }
+.navlist a:hover {
+    color: #3700ff;
+}
+.logo-1 {
+    width: 50px;
+    height: 70px;
+    border-radius: 50%;
+}
 
 body {
     background-color: #0c0149;
 }
 
 .header-row {
-    background-color: #5661ff;
+    background-color: #4955f7;
     border-radius: 50px;
 }
 
@@ -160,9 +168,50 @@ font-weight: 500;
     height: 300px;
     border-radius: 10px;
     margin: 10px;
-}
-.landscape-grid{
     gap: 20px;
+    box-shadow: 5px 5px 15px rgb(152, 145, 248);
+}
+.land {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgb(152, 145, 248);
+
+    animation: landAnim 1.2s ease forwards;
+}
+
+@keyframes landAnim {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+.land {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgb(152, 145, 248);
+
+    animation: landAnim 1.2s ease forwards;
+    transition: all 0.4s ease;
+}
+
+.land:hover {
+animation-name: zoomIn;
+animation-duration: 0.5s;  
+ box-shadow: 8px 15px 30px rgb(120, 110, 240);
+    cursor: pointer;
+}
+
+.landscape-grid{
+    gap: 100px;
+    
 }
 .para-2 {
     font-style: italic;
@@ -186,7 +235,7 @@ font-weight: 500;
     font-style: italic;
     cursor: pointer;
     text-shadow: 2px 2px 4px #ffffff;
-    animation: slideLeft 0.5s ease forwards;
+    animation: slideLeft 0.9s ease forwards;
 }
 
 @keyframes slideLeft {
@@ -196,4 +245,14 @@ font-weight: 500;
     to {
         transform: translateX(-20px);
     }
+}
+.climate-section{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgb(152, 145, 248);
+
+    animation: climateAnim 1.2s ease forwards;
+    color: #ffffff;
 }
