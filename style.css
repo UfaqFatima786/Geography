@@ -268,3 +268,19 @@ body {
     animation: climateAnim 1.2s ease forwards;
     color: #ffffff;
 }
+.climate-img{
+    border-radius: 10px;
+    height: 500px;
+    width: 800px;
+        box-shadow: 5px 5px 15px rgb(152, 145, 248);
+
+}
+.climate-img:hover{
+    border-radius: 10px;
+    height: 500px;
+    width: 800px;
+        box-shadow: 5px 5px 15px rgb(137, 237, 250);
+cursor: pointer;
+animation-name: fadeup;
+animation-duration: 0.5s;
+}
