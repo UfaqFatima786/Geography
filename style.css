@@ -164,3 +164,36 @@ font-weight: 500;
 .landscape-grid{
     gap: 20px;
 }
+.para-2 {
+    font-style: italic;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+.head2 {
+    color: #ffffff;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #0206fa;   
+
+}
+
+.head2:hover {
+    color: #2604bd;
+    font-size: 55px;
+    font-style: italic;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #ffffff;
+    animation: slideLeft 0.5s ease forwards;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-20px);
+    }
+}
