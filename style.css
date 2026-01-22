@@ -116,20 +116,7 @@ body {
     animation: slideLeft 0.5s ease forwards;
 } */
 
-.world-row {
-    /* background-image: url('images/blue-world-map-white-background_42634-9.avif'); */
-    border-radius: 50px;
-    height: 600px;
-    width: 1000px;
-    text-align: center;
-}
-.world-img{
-    border-radius: 50px;
-    height: 500px;
-    width: 1000px;
-    /* box-shadow: 5px 5px 15px rgb(20, 3, 252); */
-    /* padding-left: 200px; */
-}
+
 
 .span-1 {
     color: #2604bd;
@@ -155,14 +142,31 @@ body {
     font-weight: 500;
 }
 
+.world-row {
+    /* background-image: url('images/blue-world-map-white-background_42634-9.avif'); */
+position: relative;
+    border-radius: 50px;
+    height: 600px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.world-img {
+    border-radius: 50px;
+    height: 500px;
+    width: 1200px;
+    /* box-shadow: 5px 5px 15px rgb(20, 3, 252); */
+}
+
 .overlay {
-    position: relative;
+    position: absolute;
     background-color: rgba(64, 64, 143, 0.473);
     border-radius: 12px;
     /* margin-top: 390px !important; */
-    margin-top: 10px !important;
+    margin-top: 100px !important;
     margin-left: 160px !important;
-    width: 75% !important;
+    width: 800px !important;
     border-radius: 20px;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 5px 5px 15px rgb(20, 3, 252);
@@ -313,6 +317,36 @@ body {
     animation-duration: 2s;
 }
 
+@media screen and (max-width: 1422px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    /* .world-row {
+        margin: 0 auto !important;
+        position: absolute !important;
+        width: 712px !important;
+        height: 456px !important;
+    } */
+}
+@media only screen and (max-width: 1250px) {
+    .world-img{
+        width: 1000px;
+    }
+    .overlay{
+        width: 700px !important;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .world-img{
+        width: 900px;
+    }
+    .overlay{
+        width: 600px !important;
+margin-top: 100px;
+}
+}
+
 @media only screen and (max-width:1000px) {
 
     .climate-img {
@@ -363,12 +397,14 @@ body {
         animation-duration: 0.5s;
     }
 }
+
 @media only screen and (max-width:600px) {
-    .land{
+    .land {
         width: 350px;
         height: 200px;
     }
 }
+
 @media only screen and (max-width:550px) {
 
     .climate-img {
@@ -390,12 +426,14 @@ body {
         animation-duration: 0.5s;
     }
 }
+
 @media only screen and (max-width:450px) {
-    .land{
+    .land {
         width: 275px;
         height: 180px;
     }
 }
+
 @media only screen and (max-width:430px) {
 
     .climate-img {
@@ -417,12 +455,14 @@ body {
         animation-duration: 0.5s;
     }
 }
+
 @media only screen and (max-width:340px) {
-    .land{
+    .land {
         width: 200px;
         height: 150px;
     }
 }
+
 @media only screen and (max-width:340px) {
 
     .head2 {
@@ -488,12 +528,14 @@ body {
         animation-duration: 0.5s;
     }
 }
+
 @media only screen and (max-width:340px) {
-    .land{
+    .land {
         width: 150px;
         height: 150px;
     }
 }
+
 @media only screen and (max-width:250px) {
 
     .climate-img {
@@ -515,33 +557,36 @@ body {
         animation-duration: 0.5s;
     }
 }
+
 @media only screen and (max-width:225px) {
-.head2 {
-    color: #ffffff;
-    font-size: 30px;
-    font-style: italic;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px #0206fa;
+    .head2 {
+        color: #ffffff;
+        font-size: 30px;
+        font-style: italic;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px #0206fa;
 
-}
+    }
 
-.head2:hover {
-    color: #2604bd;
-    font-size: 35px;
-    font-style: italic;
-    cursor: pointer;
-    text-shadow: 2px 2px 4px #ffffff;
-    animation: slideLeft 0.9s ease forwards;
-}
-    .land{
+    .head2:hover {
+        color: #2604bd;
+        font-size: 35px;
+        font-style: italic;
+        cursor: pointer;
+        text-shadow: 2px 2px 4px #ffffff;
+        animation: slideLeft 0.9s ease forwards;
+    }
+
+    .land {
         width: 125px;
         height: 125px;
     }
-    .para-2 {
-    font-style: italic;
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: 500;
 
-}
+    .para-2 {
+        font-style: italic;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 500;
+
+    }
 }
