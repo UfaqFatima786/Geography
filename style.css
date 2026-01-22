@@ -117,10 +117,18 @@ body {
 } */
 
 .world-row {
-    background-image: url('images/blue-world-map-white-background_42634-9.avif');
+    /* background-image: url('images/blue-world-map-white-background_42634-9.avif'); */
+    border-radius: 50px;
+    height: 600px;
+    width: 1000px;
+    text-align: center;
+}
+.world-img{
     border-radius: 50px;
     height: 500px;
-    width: 100%;
+    width: 1000px;
+    /* box-shadow: 5px 5px 15px rgb(20, 3, 252); */
+    /* padding-left: 200px; */
 }
 
 .span-1 {
@@ -529,4 +537,11 @@ body {
         width: 125px;
         height: 125px;
     }
+    .para-2 {
+    font-style: italic;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+
+}
 }
