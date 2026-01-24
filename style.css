@@ -333,7 +333,6 @@ body {
 @media only screen and (max-width: 1250px) {
     .world-img {
         width: 1000px;
-        height: 600px;
     }
 
     .overlay {
@@ -344,6 +343,7 @@ body {
 @media only screen and (max-width: 1200px) {
     .world-img {
         width: 900px;
+        height: 600px;
     }
 
     .overlay {
@@ -355,10 +355,10 @@ body {
 @media only screen and (max-width: 1050px) {
     .world-img {
         width: 850px;
-        height: 600px;
         margin-left: 30px;
     }
-/* 
+
+    /* 
     .overlay {
         width: 600px !important;
         margin-top: 100px;
@@ -387,18 +387,55 @@ body {
     }
 }
 
-@media only screen and (max-width:1000px) {
+/* @media only screen and (max-width:1000px) {
+    .navbar-collapse .navlist {
+        text-align: center;
+    }
+} */
+@media only screen and (max-width:992px) {
+    .world-img {
+        width: 700px;
+        height: 500px;
+        text-align: left;
+    }
+
     .navbar-collapse .navlist {
         text-align: center;
     }
 }
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:950px) {
     .world-img {
-        width: 700px;
-        height: 600px;
+        width: 600px;
+        height: 500px;
         text-align: left;
     }
+
 }
+
+/* }
+@media (max-width: 1000px) {
+    .overlay {
+        position: relative;
+        margin: 30px auto;
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .overlay {
+        width: 95%;
+        margin-top: 20px;
+    }
+}
+
+@media  only screen and (max-width:576px){
+    .overlay {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 3px 3px 10px rgb(20, 3, 252);
+    }
+} */
 
 @media only screen and (max-width:780px) {
 
