@@ -122,6 +122,7 @@ body {
     color: #2604bd;
     font-weight: bold;
 }
+
 .heading3 {
     color: #12015f;
     font-size: 50px;
@@ -145,6 +146,7 @@ body {
     font-size: 50px;
     font-style: italic;
 }
+
 .para-10 {
     font-style: italic;
     font-size: 25px;
@@ -415,22 +417,26 @@ body {
         height: 600px;
         text-align: left;
     }
-.overlay {
+
+    .overlay {
         width: 500px !important;
         margin-left: 125px !important;
     }
+
     .navbar-collapse .navlist {
         text-align: center;
     }
 }
+
 @media only screen and (max-width:952px) {
-    
+
     .world-img {
         width: 650px;
         height: 550px;
         margin-right: 500px;
     }
-.overlay {
+
+    .overlay {
         width: 500px !important;
         margin-left: 125px !important;
     }
@@ -482,15 +488,36 @@ body {
         animation-duration: 0.5s;
     }
 }
+
 @media only screen and (max-width:768px) {
     .world-img {
         width: 500px;
         height: 450px;
         margin-right: 400px;
     }
+
     .overlay {
         width: 400px !important;
         margin-left: 80px !important;
+    }
+
+    .heading30 {
+        color: #12015f;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    .heading30:hover {
+        color: #2232c2;
+        font-size: 31px;
+        font-style: italic;
+    }
+
+    .para-10 {
+        font-style: italic;
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
     }
 }
 
@@ -498,6 +525,39 @@ body {
     .land {
         width: 350px;
         height: 200px;
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .world-img {
+        width: 450px;
+        height: 450px;
+        margin-right: 400px;
+    }
+
+    .overlay {
+        width: 350px !important;
+        margin-left: 80px !important;
+        margin-top: 60px !important;
+    }
+
+    .heading30 {
+        color: #12015f;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    .heading30:hover {
+        color: #2232c2;
+        font-size: 31px;
+        font-style: italic;
+    }
+
+    .para-10 {
+        font-style: italic;
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
     }
 }
 
@@ -520,6 +580,111 @@ body {
         cursor: pointer;
         animation-name: fadeup;
         animation-duration: 0.5s;
+    }
+}
+ 
+@media only screen and (max-width:520px) {
+    .world-img {
+        width: 400px;
+        height: 550px;
+        margin-right: 400px;
+    }
+
+    .overlay {
+        height: 450px;
+        width: 300px !important;
+        margin-left: 80px !important;
+        margin-top: 60px !important;
+    }
+
+    .heading30 {
+        color: #12015f;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    .heading30:hover {
+        color: #2232c2;
+        font-size: 31px;
+        font-style: italic;
+    }
+
+    .para-10 {
+        font-style: italic;
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+} 
+ /* @media only screen and (max-width: 520px) {
+
+    .world-img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        display: block;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90% !important;
+        height: auto;
+        padding: 15px;
+        border-radius: 15px;
+        background-color: rgba(64, 64, 143, 0.55);
+        text-align: center;
+    }
+
+    .heading30 {
+        font-size: 24px;
+        color: #12015f;
+        font-style: italic;
+    }
+
+    .para-10 {
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 500;
+        color: #000;
+    }
+} */
+
+
+@media only screen and (max-width:490px) {
+    .world-img {
+        width: 350px;
+        height: 650px;
+        margin-right: 400px;
+        margin-bottom: 100px;
+    }
+
+    .overlay {
+        height: 500px;
+        width: 250px !important;
+        margin-left: 80px !important;
+        margin-top: 60px !important;
+    }
+
+    .heading30 {
+        color: #12015f;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    .heading30:hover {
+        color: #2232c2;
+        font-size: 31px;
+        font-style: italic;
+    }
+
+    .para-10 {
+        font-style: italic;
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
     }
 }
 
