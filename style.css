@@ -122,7 +122,6 @@ body {
     color: #2604bd;
     font-weight: bold;
 }
-
 .heading3 {
     color: #12015f;
     font-size: 50px;
@@ -133,6 +132,24 @@ body {
     color: #2232c2;
     font-size: 50px;
     font-style: italic;
+}
+
+.heading30 {
+    color: #12015f;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.heading30:hover {
+    color: #2232c2;
+    font-size: 50px;
+    font-style: italic;
+}
+.para-10 {
+    font-style: italic;
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
 }
 
 .para-1 {
@@ -395,21 +412,28 @@ body {
 @media only screen and (max-width:992px) {
     .world-img {
         width: 700px;
-        height: 500px;
+        height: 600px;
         text-align: left;
     }
-
+.overlay {
+        width: 500px !important;
+        margin-left: 125px !important;
+    }
     .navbar-collapse .navlist {
         text-align: center;
     }
 }
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:952px) {
+    
     .world-img {
-        width: 600px;
-        height: 500px;
-        text-align: left;
+        width: 650px;
+        height: 550px;
+        margin-right: 500px;
     }
-
+.overlay {
+        width: 500px !important;
+        margin-left: 125px !important;
+    }
 }
 
 /* }
@@ -456,6 +480,17 @@ body {
         cursor: pointer;
         animation-name: fadeup;
         animation-duration: 0.5s;
+    }
+}
+@media only screen and (max-width:768px) {
+    .world-img {
+        width: 500px;
+        height: 450px;
+        margin-right: 400px;
+    }
+    .overlay {
+        width: 400px !important;
+        margin-left: 80px !important;
     }
 }
 
