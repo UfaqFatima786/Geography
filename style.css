@@ -31,12 +31,10 @@ body {
     background-color: #000000;
     border-radius: 300px;
 }
-
-/* 
 .globe-img{
     cursor: pointer;
 
-}  */
+}  
 
 .leftcol {
     padding-top: 50px;
@@ -341,12 +339,35 @@ body {
         overflow-x: hidden !important;
     }
 
-    /* .world-row {
-        margin: 0 auto !important;
-        position: absolute !important;
-        width: 712px !important;
-        height: 456px !important;
-    } */
+}
+@media screen and (max-width: 1300px) {
+  .globe-img {
+    background-color: #000000;
+    border-radius: 300px;
+    cursor: pointer;
+        animation: rotate 15s linear infinite;
+
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.globe-img:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px rgb(11, 57, 3);
+    cursor: pointer;
+    animation-name: __pulse;
+    animation-duration: 2s;
+}
+
+
 }
 
 @media only screen and (max-width: 1250px) {
@@ -442,30 +463,6 @@ body {
     }
 }
 
-/* }
-@media (max-width: 1000px) {
-    .overlay {
-        position: relative;
-        margin: 30px auto;
-        width: 90%;
-        padding: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .overlay {
-        width: 95%;
-        margin-top: 20px;
-    }
-}
-
-@media  only screen and (max-width:576px){
-    .overlay {
-        width: 100%;
-        border-radius: 15px;
-        box-shadow: 3px 3px 10px rgb(20, 3, 252);
-    }
-} */
 
 @media only screen and (max-width:780px) {
 
@@ -659,6 +656,29 @@ body {
         width: 275px;
         height: 180px;
     }
+
+    .heading-3 {
+        color: rgb(0, 0, 0);
+        /* font-weight: 600; */
+        font-size: 35px;
+        font-style: italic;
+        margin-right: 10px;
+
+    }
+
+    .heading-3:hover {
+        transition: 0.9s;
+        cursor: pointer;
+        animation-name: __slideLeft;
+        animation: slideLeft 0.5s ease forwards;
+    }
+
+    .para1 {
+        font-style: italic;
+        font-size: 17px;
+        color: #000;
+        margin-right: 20px;
+    }
 }
 
 @media only screen and (max-width:430px) {
@@ -779,6 +799,7 @@ body {
     }
 
 }
+
 @media only screen and (max-width:315px) {
     .world-img {
         width: 200px;
@@ -803,6 +824,28 @@ body {
         font-size: 12px;
         color: #000;
         font-weight: 500;
+    }
+
+    .heading-3 {
+        color: rgb(0, 0, 0);
+        /* font-weight: 600; */
+        font-size: 25px;
+        font-style: italic;
+        margin-right: 10px;
+    }
+
+    .heading-3:hover {
+        transition: 0.9s;
+        cursor: pointer;
+        animation-name: __slideLeft;
+        animation: slideLeft 0.5s ease forwards;
+    }
+
+    .para1 {
+        font-style: italic;
+        font-size: 17px;
+        color: #000;
+        margin-right: 20px;
     }
 }
 
