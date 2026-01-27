@@ -103,11 +103,12 @@ body {
     font-size: 25px;
     color: #000;
 }
- .para1 {
+
+.para1 {
     font-style: italic;
     font-size: 27px;
     color: #000;
-} 
+}
 
 /* .para-1:hover {
     font-size: 20px;
@@ -334,6 +335,12 @@ body {
     cursor: pointer;
     animation-name: pulse;
     animation-duration: 2s;
+}
+
+.flag {
+    width: 32px;
+    margin-bottom: 8px;
+    border: #000 2px solid;
 }
 
 @media screen and (max-width: 1422px) {
@@ -623,6 +630,7 @@ body {
         height: 200px;
     }
 }
+
 @media screen and (max-width: 576px) and (min-width: 345px) {
 
     .header-row {
@@ -926,6 +934,7 @@ body {
         font-weight: 500;
     }
 }
+
 @media screen and (max-width: 345px) and (min-width: 200px) {
 
     .header-row {
