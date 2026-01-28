@@ -336,14 +336,29 @@ body {
     animation-name: pulse;
     animation-duration: 2s;
 }
- .maped{
-    width: 600px;
+.flag{
+    width: 50px;
     height: auto;
-    border-radius: 100px;
- }
-.section-facts {
-    background-color: #4955f7;
+    border-radius: 5px;
+}
+ .maped{
+    width: 700px;
+    height: auto;
     border-radius: 50px;
+ }
+  .maped:hover{
+    width: 700px;
+    height: auto;
+    border-radius: 55px;
+    box-shadow: 5px 5px 25px rgb(117, 138, 231);
+    cursor: pointer;
+    animation-name: zoom-In;
+    animation-duration: 2s;
+ }
+.section-facts{
+    border-radius: 50px;
+    background-color: #4955f7;
+    margin-bottom: 50px;
 }
 
 
