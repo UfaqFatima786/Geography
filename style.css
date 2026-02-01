@@ -424,6 +424,11 @@ body {
     cursor: pointer;
 }
 
+.logo{
+    text-decoration: none;
+}
+
+
 
 @media screen and (max-width: 1422px) {
     body {
@@ -510,6 +515,7 @@ body {
     .maped {
         width: 600px;
     }
+
     .maped:hover {
         width: 602px;
         box-shadow: 5px 5px 25px rgb(117, 138, 231);
@@ -547,6 +553,7 @@ body {
         animation-duration: 0.5s;
     }
 }
+
 @media only screen and (max-width:992px) {
     .world-img {
         width: 700px;
@@ -634,6 +641,7 @@ body {
     .maped {
         width: 450px;
     }
+
     .maped:hover {
         width: 452px;
         box-shadow: 5px 5px 25px rgb(117, 138, 231);
@@ -763,6 +771,7 @@ body {
     .maped {
         width: 350px;
     }
+
     .maped:hover {
         width: 352px;
         box-shadow: 5px 5px 25px rgb(117, 138, 231);
@@ -861,6 +870,7 @@ body {
     .maped {
         width: 250px;
     }
+
     .maped:hover {
         width: 252px;
         box-shadow: 5px 5px 25px rgb(117, 138, 231);
@@ -995,6 +1005,7 @@ body {
     .maped {
         width: 200px;
     }
+
     .maped:hover {
         width: 202px;
         box-shadow: 5px 5px 25px rgb(117, 138, 231);
@@ -1010,6 +1021,7 @@ body {
         height: 150px;
     }
 }
+
 @media only screen and (max-width:315px) {
     .world-img {
         width: 200px;
@@ -1058,6 +1070,7 @@ body {
         margin-right: 20px;
     }
 }
+
 @media only screen and (max-width:310px) {
 
     .climate-img {
@@ -1100,9 +1113,11 @@ body {
         animation-name: fadeup;
         animation-duration: 0.5s;
     }
+
     .maped {
         width: 125px;
     }
+
     .maped:hover {
         width: 127px;
         height: auto;
