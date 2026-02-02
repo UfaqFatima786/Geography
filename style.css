@@ -209,15 +209,6 @@ body {
     margin: 10px;
     gap: 20px;
     box-shadow: 5px 5px 15px rgb(152, 145, 248);
-}
-
-.land {
-    width: 500px;
-    height: 300px;
-    border-radius: 10px;
-    margin: 10px;
-    box-shadow: 5px 5px 15px rgb(152, 145, 248);
-
     animation: landAnim 1.2s ease forwards;
 }
 
@@ -439,7 +430,7 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
-.head-3{
+.head30 {
     color: #ffffff;
         font-size: 35px;
     font-style: italic;
@@ -453,6 +444,17 @@ a{
 .lastpara{
     color: #ffffff;
 }
+.active-card {
+    border: 3px solid #000;
+    box-shadow: 0 0 20px #ffffff;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.section-facts {
+    display: block;
+}
+
 
 
 @media screen and (max-width: 1422px) {
