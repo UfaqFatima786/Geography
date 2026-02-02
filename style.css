@@ -1,15 +1,16 @@
 .navUl {
-    background-color: #d7d4fc;
+    background-color: #0d028b;
     color: #000000;
     border-radius: 10px;
 }
 
 .navlist a {
-    color: #000000;
+    color: #ffffff;
 }
 
 .navlist a:hover {
-    color: #3700ff;
+    color: #cabcfb;
+    font-size: 20px;
 }
 
 .logo-1 {
@@ -423,11 +424,35 @@ body {
     text-shadow: 2px 2px 4px #000000;
     cursor: pointer;
 }
-
-.logo{
-    text-decoration: none;
+.footer{
+    background-color: #090163;
+    border: 2px solid #7c70f9;
+    
 }
-
+.logo{
+text-decoration: none;   
+ width: 42px;
+    height: 42px;
+    border-radius: 50px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.head-3{
+    color: #ffffff;
+        font-size: 35px;
+    font-style: italic;
+}
+.head-3:hover{
+    color: rgb(121, 139, 245);
+    cursor: pointer;
+    font-size: 40px;
+    font-style: italic;
+}
+.lastpara{
+    color: #ffffff;
+}
 
 
 @media screen and (max-width: 1422px) {
